@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: 0px;
+  font-family: medium500;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.year {
+  font-size: 16px;
+  font-family: regular400;
+}
+p {
+  margin-right: 50px;
+  font-size: 16px;
+  font-family: regular400;
+}
+h1 {
+  font-size: 1.8rem;
+  font-family: regular400;
+  color: #21092f;
+}
+h2 {
+  font-family: regular400;
+  color: hsl(279, 6%, 55%);
+}
+
+@font-face {
+  font-family: medium500;
+  src: url(./static/SpaceGrotesk-Medium.ttf);
+}
+@font-face {
+  font-family: regular400;
+  src: url(./static/SpaceGrotesk-Regular.ttf);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
